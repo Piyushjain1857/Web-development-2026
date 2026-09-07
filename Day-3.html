@@ -2,45 +2,91 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>John Doe Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Doe Portfolio</title>
 </head>
 
 <body>
-  <h1>Piyush Jain</h1>
+    <h1>Piyush Jain</h1>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  <h2>Welcome to My Portfolio</h2>
-  <p>Hello! I am a web development student. This is my personal portfolio website.</p>
+    <h2>Welcome to My Portfolio</h2>
+    <p>Hello! I am a web development student. This is my personal portfolio website.</p>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <img src="Piyush jain.jpeg" alt="Piyush Jain" style="width: 200px; height: 200px; border-radius: 50%;" />
-    <p>I am passionate about learning web development and building creative projects.</p>
-  </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Piyush jain.jpeg" alt="Piyush Jain" style="width: 200px; height: 200px; border-radius: 50%;" />
+        <p>I am passionate about learning web development and building creative projects.</p>
+    </section>
 
-  <section id="projects">
-    <h2>My Projects</h2>
+    <section id="projects">
+        <h2>My Projects</h2>
 
-    <ul>
-      <li><strong>Portfolio Website:</strong> A personal one-page website to showcase your bio, skills, and
-        contact details.</li>
-      <li><strong>Medium Clone:</strong> A simple blog layout that looks like Medium, built only with HTML and
-        CSS.</li>
-      <li><strong>Birthday Card:</strong> A creative greeting card webpage designed with HTML structure and
-        CSS styling.</li>
-      <li><strong>User Form:</strong> A form webpage with fields like name, email, and message for practicing
-        form handling.</li>
-    </ul>
-  </section>
+        <ul>
+            <li><strong>Portfolio Website:</strong> A personal one-page website to showcase your bio, skills, and
+                contact details.</li>
+            <li><strong>Medium Clone:</strong> A simple blog layout that looks like Medium, built only with HTML and
+                CSS.</li>
+            <li><strong>Birthday Card:</strong> A creative greeting card webpage designed with HTML structure and CSS
+                styling.</li>
+            <li><strong>User Form:</strong> A form webpage with fields like name, email, and message for practicing form
+                handling.</li>
+        </ul>
+    </section>
+
+    <section id="table">
+        <h2>Technical Skills</h2>
+
+        <table border="1">
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Learning</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <p>
+                <label for="name">Name:</label>
+                <input id="name" type="text" placeholder="Enter your name" />
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="Enter your email" />
+            </p>
+
+            <p>
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Enter your message"></textarea>
+            </p>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
 
 </html>
