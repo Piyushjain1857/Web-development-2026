@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <main class="page">
+        <h1 style="text-align: center; color: blue; background-color: aquamarine;">Registration Form</h1>
+        <form>
+            <label for="first-name">First Name :</label>
+            <input id="first-name" name="first-name" type="text" placeholder="Enter First Name"><br><br>
+
+            <label for="last-name">Last Name :</label>
+            <input id="last-name" name="last-name" type="text" placeholder="Enter Last Name"><br><br>
+
+            <label for="email">Email :</label>
+            <input id="email" name="email" type="email" placeholder="Enter Email Address"><br><br>
+
+            <label for="password">Password :</label>
+            <input id="password" name="password" type="password"><br><br>
+
+            <span>Gender:</span>
+            <label>Male <input type="radio" name="gender" value="male"></label>
+            <label>Female<input type="radio" name="gender" value="female"></label>
+            <label>Other <input type="radio" name="gender" value="other"></label><br><br>
+
+            <label for="age">Age :</label>
+            <input id="age" name="age" type="number" min="1" max="120"><br><br>
+
+            <span class="label">Preferences:</span>
+            <label>Acrylic Painting <input type="checkbox" name="preference" value="acrylic"></label>
+            <label>Oil Painting <input type="checkbox" name="preference" value="oil"></label>
+            <label>Water Color Painting <input type="checkbox" name="preference" value="watercolor"></label><br><br>
+
+            <label for="occupation">Occupation :</label>
+            <select id="occupation" name="occupation">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Professional</option>
+                <option>Other</option>
+            </select><br><br>
+
+            <label class="label" for="bio">Bio:</label>
+            <textarea id="bio" name="bio" placeholder="Share few lines about yourself..."></textarea><br><br>
+            <button type="reset">RESET</button><button type="submit">SUBMIT</button>
+        </form>
+    </main>
+</body>
+
+</html>
