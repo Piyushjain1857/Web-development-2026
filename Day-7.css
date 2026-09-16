@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.red {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    padding: 40px 70px;
+}
+
+.orange {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    border: 2px solid black;
+    padding: 54px 55px;
+}
+
+.yellow {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border: 2px solid #222;
+    padding: 55px;
+}
+
+.green {
+    width: 100%;
+    height: 100%;
+    background-color: #00ff00;
+    border: 2px solid #222;
+    padding: 55px;
+}
+
+.blue {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    border: 2px solid #222;
+    padding: 55px;
+    align-items: center;
+}
+
+.voilet {
+    width: 100%;
+    height: 100%;
+    background-color: purple;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.voilet p {
+    margin: 0;
+    color: white;
+    font-size: 90px;
+}
