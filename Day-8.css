@@ -1,0 +1,42 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Common box styling */
+.color-box {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* 1. HEX */
+.hex {
+    background-color: #FF5733;
+    color: #FFFFFF;
+}
+
+/* 2. RGB */
+.rgb {
+    background-color: rgb(52, 152, 219);
+    color: rgb(255, 255, 255);
+}
+
+/* 3. RGBA */
+.rgba {
+    background-color: rgba(46, 204, 113, 0.7);
+    color: rgba(0, 0, 0, 1);
+}
+
+/* 4. HSL */
+.hsl {
+    background-color: hsl(280, 70%, 60%);
+    color: hsl(0, 0%, 100%);
+}

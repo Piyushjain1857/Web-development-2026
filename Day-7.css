@@ -2,46 +2,46 @@
     box-sizing: border-box;
 }
 
+div {
+    border: 2px solid black;
+}
+
 .red {
-    height: 100vh;
+    height: 750px;
+    width: 750px;
     background: red;
-    padding: 40px 70px;
+    padding: 50px;
 }
 
 .orange {
     height: 100%;
     background: orange;
-    padding: 55px;
-    border: 2px solid black;
+    padding: 50px;
 }
 
 .yellow {
     height: 100%;
     background: yellow;
-    padding: 55px;
-    border: 2px solid black;
+    padding: 50px;
 }
 
 .green {
     height: 100%;
     background: lime;
-    padding: 55px;
-    border: 2px solid black;
+    padding: 50px;
 }
 
 .blue {
     height: 100%;
     background: blue;
-    padding: 55px;
-    border: 2px solid black;
+    padding: 50px;
 }
 
 .voilet {
     height: 100%;
     background: purple;
-    border: 2px solid black;
     text-align: center;
-    padding-top: 75px;
+    padding: 15px;
 }
 
 .voilet p {
