@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventurer Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+        .form-box {
+            width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: purple;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        textarea {
+            height: 100px;
+        }
+        .option {
+            margin: 8px 0;
+        }
+        .option label {
+            display: inline;
+            margin: 0;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .join {
+            background-color: purple;
+            color: white;
+        }    
+        .reset {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-box">
+        <h1>🧙 Join the Royal Adventure</h1>
+        <form>
+            <label>Adventurer Name</label>
+            <input type="text" name="name">
+            <label>Email</label>
+            <input type="email" name="email">
+            <label>Password</label>
+            <input type="password" name="password">
+            <label>Age</label>
+            <input type="number" name="age">
+            <label>Date of Birth</label>
+            <input type="date" name="dob">
+            <label>Gender</label>
+            <div class="option">
+                <input type="radio" name="gender" value="male">
+                <label>Male</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="gender" value="female">
+                <label>Female</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="gender" value="other">
+                <label>Other</label>
+            </div>
+            <label>Choose Your Character</label>
+            <select>
+                <option>Select Character</option>
+                <option>Knight</option>
+                <option>Wizard</option>
+                <option>Archer</option>
+                <option>Fairy</option>
+            </select>
+            <label>Choose Your Powers</label>
+            <div class="option">
+                <input type="checkbox">
+                <label>Fire</label>
+            </div>
+            <div class="option">
+                <input type="checkbox">
+                <label>Water</label>
+            </div>
+            <div class="option">
+                <input type="checkbox">
+                <label>Flying</label>
+            </div>
+            <div class="option">
+                <input type="checkbox">
+                <label>Invisibility</label>
+            </div>
+            <div class="option">
+                <input type="checkbox">
+                <label>Super Strength</label>
+            </div>
+            <label>Adventure Level</label>
+            <div class="option">
+                <input type="radio" name="level">
+                <label>Beginner</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="level">
+                <label>Intermediate</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="level">
+                <label>Expert</label>
+            </div>
+            <label>Favorite Kingdom</label>
+            <select>
+                <option>Select Kingdom</option>
+                <option>Eldoria</option>
+                <option>Dragon Kingdom</option>
+                <option>Fairy Kingdom</option>
+                <option>Wizard Kingdom</option>
+            </select>
+            <label>Favorite Magical Creature</label>
+            <select>
+                <option>Select Creature</option>
+                <option>Dragon</option>
+                <option>Phoenix</option>
+                <option>Unicorn</option>
+                <option>Griffin</option>
+            </select>
+            <label>Tell us about your magical skills</label>
+            <textarea placeholder="Write about your magical skills..."></textarea>
+            <label>Upload your adventurer photo</label>
+            <input type="file">
+            <div class="option">
+                <input type="checkbox">
+                <label>I accept Kingdom Rules</label>
+            </div>
+            <button type="submit" class="join">
+                Join Adventure
+            </button>
+            <button type="reset" class="reset">
+                Reset
+            </button>
+        </form>
+    </div>
+</body>
+</html>ƒ
