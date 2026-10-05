@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Design Smarter</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            height: 100vh;
+            padding: 10px 25px;
+            background-image: url(./image.png);
+        }
+
+        nav {
+            height: 60px;
+            background: white;
+            border-radius: 18px;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 35px;
+            font-weight: bold
+        }
+
+        .links,
+        .right,
+        .buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .login {
+            padding: 12px
+        }
+
+        .free,
+        .components {
+            background: #17243d;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+        }
+
+        main {
+            margin: 110px 0 0 32px
+        }
+
+        .tag {
+            display: inline-block;
+            background: white;
+            padding: 8px 13px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.5;
+            width: 500px;
+            margin-bottom: 45px;
+        }
+
+        .button {
+            padding: 14px 20px;
+            border-radius: 10px;
+        }
+
+        .demo {
+            background: white
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">↗</div>
+        <div class="links">
+            <a href="#">Features</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+        </div>
+        <div class="right">
+            <a class="login" href="#">Log in</a>
+            <a class="free" href="#">Try free - 14 days</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="tag">Trusted by creators</div>
+        <h1>Design smarter.<br>Launch faster.</h1>
+        <p>From client projects to product launches,<br>streamline your workflow with flexible,<br>modern components made to look great everywhere.</p>
+        <div class="buttons">
+            <a class="button demo" href="#">⚡ See live demo →</a>
+            <a class="button components" href="#">Explore components →</a>
+        </div>
+    </main>
+
+</body>
+
+</html>

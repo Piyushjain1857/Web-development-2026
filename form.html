@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <!-- Full Name -->
+        <label for="fullName">Full Name*:</label><br />
+        <input type="text" id="fullName" name="fullName" placeholder="FirstName LastName" required /><br /><br />
+
+        <!-- Email -->
+        <label for="email">Email Address*:</label><br />
+        <input type="email" id="email" name="email" placeholder="EMAIL_ADDRESS" required /><br /><br />
+
+        <!-- Tour Package -->
+        <label for="tourPackage">Select Tour Package*:</label><br />
+        <select id="tourPackage" name="tourPackage" required>
+            <option value="goa">Goa</option>
+            <option value="manali">Manali</option>
+            <option value="jaipur">Jaipur</option>
+            <option value="kerala">Kerala</option>
+        </select><br /><br />
+
+        <!-- Arrival Date -->
+        <label for="arrivalDate">Arrival Date*:</label><br />
+        <input type="date" id="arrivalDate" name="arrivalDate" required /><br /><br />
+
+        <!-- Number of Persons -->
+        <label for="persons">Number of Persons*:</label><br />
+        <input type="number" id="persons" name="persons" placeholder="Enter number of persons" min="1"
+            required /><br /><br />
+
+        <!-- Services -->
+        <label>What would you want to avail?*</label><br />
+
+        <input type="checkbox" id="boarding" name="services[]" value="boarding" />
+        <label for="boarding">Boarding</label><br />
+
+        <input type="checkbox" id="fooding" name="services[]" value="fooding" />
+        <label for="fooding">Fooding</label><br />
+
+        <input type="checkbox" id="sightseeing" name="services[]" value="sightseeing" />
+        <label for="sightseeing">Sight Seeing</label><br /><br />
+
+        <!-- Discount Coupon -->
+        <label for="coupon">Discount Coupon Code:</label><br />
+        <input type="text" id="coupon" name="coupon" placeholder="Enter coupon code" /><br /><br />
+
+        <!-- Terms and Conditions -->
+        <label>Terms and Conditions*</label><br />
+
+        <input type="radio" id="agree" name="agree" value="agree" required />
+        <label for="agree">I Agree</label>
+
+        <input type="radio" id="disagree" name="disagree" value="disagree" />
+        <label for="disagree">I Disagree</label><br /><br />
+
+        <!-- Submit Button -->
+        <button type="submit">Complete Reservation</button>
+    </form>
+</body>
+
+</html>
