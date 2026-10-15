@@ -1,3 +1,0 @@
-2. Important Linux Directories
-Directory	Purpose
-/-Root of the entire filesystem/bin-Essential user commands, such as ls and cp/sbin-System administration commands/etc-System configuration files/home-Personal directories of normal users/root-Home directory of the root administrator/dev-Files representing devices/proc-Virtual filesystem containing process and kernel information/sys-Information about devices and the kernel/tmp-Temporary files/var-Variable data, such as logs and caches/usr-Applications, libraries and utilities/lib-Essential shared libraries and kernel modules/boot-Files required to boot Linux/mnt-Temporary mount point for filesystems/media-Mount points for removable devices/opt-Optional third-party software/run-Runtime data for running proce
